@@ -1,0 +1,9 @@
+﻿bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.exe
+*.dll
+*.db
+publish/

@@ -15,4 +15,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.7" />
   </ItemGroup>
 
+  <!-- Include SQLite database in publish -->
+  <ItemGroup>
+    <None Update="AirBnb.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
